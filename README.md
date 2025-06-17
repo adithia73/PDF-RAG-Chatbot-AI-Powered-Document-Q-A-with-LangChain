@@ -46,6 +46,9 @@ cd pdf-rag-chatbot
 
 python3.11 -m venv my_env
 source my_env/bin/activate  # For Windows: my_env\Scripts\activate
+```
+install them manually with specific versions:
+```bash
 python3.11 -m pip install \
   gradio==4.44.0 \
   ibm-watsonx-ai==1.1.2  \
@@ -55,4 +58,10 @@ python3.11 -m pip install \
   chromadb==0.4.24 \
   pypdf==4.3.1 \
   pydantic==2.9.1
-
+```
+Run the Application
+```bash
+python qabot.py
+```
+Access in Browser
+Go to: http://localhost:7865
